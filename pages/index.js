@@ -26,7 +26,7 @@ export default function Home() {
     <Container className="mt-5 text-center">
       <div className="display-1">Software solutions for <b>everyone</b>.</div>
       <div className="row mt-5">
-          <div className="col-lg ml-lg-5 text-center text-lg-left">
+          <div className="col-lg ml-lg-5 text-center text-lg-left mb-3">
               <h2>About</h2>
               <p>We providing software solutions and services for users, like you.</p>
               <Link href="/about"><a className="btn btn-outline-primary disabled shadow">Learn more</a></Link>

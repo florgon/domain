@@ -10,7 +10,7 @@ h2 {
     font-size: 32px;
 }
 
-p {
+p,span{
     font-size: 21px;
     font-weight: 200;
     line-height: 36px;
