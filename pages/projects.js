@@ -20,7 +20,7 @@ export default function Projects() {
       <link rel="alternate" hrefLang="x-default" href="https://florgon.space" />
       
       <meta name="title" content="Florgon" />
-      <title>Florgon</title>
+      <title>Projects</title>
     </Head>
     <Navbar/>
     <Container className="mt-5 text-center">
@@ -28,8 +28,8 @@ export default function Projects() {
       <div className="row mt-5">
           <div className="col-lg ml-lg-5 text-center text-lg-left mb-5">
             <h2>Single sign-on</h2>
-              <p><i>SSO</i> for all Florgon services using <i>Florgon Account</i>.</p>
-              <Link href="https://profile.florgon.space"><a className="btn btn-outline-primary">Open profile</a></Link>
+            <p><i>SSO</i> for all Florgon services using <i>Florgon Account</i>.</p>
+            <Link href="https://profile.florgon.space"><a className="btn btn-outline-primary shadow">Open profile</a></Link>
           </div>
           <div className="col-lg ml-lg-5 text-center text-lg-right">
           </div>

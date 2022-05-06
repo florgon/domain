@@ -29,21 +29,21 @@ export default function Home() {
           <div className="col-lg ml-lg-5 text-center text-lg-left">
               <h2>About</h2>
               <p>We providing software solutions and services for users, like you.</p>
-              <Link href="/about"><a className="btn btn-outline-primary disabled">Learn more</a></Link>
+              <Link href="/about"><a className="btn btn-outline-primary disabled shadow">Learn more</a></Link>
           </div>
           <div className="col-lg ml-lg-5 text-center text-lg-right">
               <h2>Projects</h2>
               <p>
                   Websites, Applications, APIs and many more.
               </p>
-              <Link href="/projects"><a className="btn btn-outline-primary">All projects</a></Link>
+              <Link href="/projects"><a className="btn btn-outline-primary shadow">All projects</a></Link>
           </div>
       </div>
       <div className="row mt-5 mb-5">
           <div className="col-lg ml-lg-5 text-center">
               <h2>Single account</h2>
               <p>Use single <i>Florgon Account</i> for all Florgon services.</p>
-              <Link href="https://profile.florgon.space"><a className="btn btn-outline-primary">Open profile</a></Link>
+              <Link href="https://profile.florgon.space"><a className="btn btn-outline-primary shadow">Open profile</a></Link>
           </div>
       </div>
       
