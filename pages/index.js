@@ -11,13 +11,13 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
 
-      <meta name="author" content="https://kirillzhosul.site" />
+      <meta name="author" content={process.env.NEXT_PUBLIC_META_AUTHOR} />
       
       <meta name="description" content="Software solutions for everyone." />
       <meta name="keywords" content="florgon, space, portal, services, kirillzhosul" />
-
-      <link rel="canonical" href="https://florgon.space" />
-      <link rel="alternate" hrefLang="x-default" href="https://florgon.space" />
+      
+      <link rel="canonical" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
+      <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
       
       <meta name="title" content="Florgon" />
       <title>Florgon</title>

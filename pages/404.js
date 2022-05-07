@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container } from 'react-bootstrap'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+
 
 export default function NotFound() {
   return (<>
@@ -11,15 +11,15 @@ export default function NotFound() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
 
-      <meta name="author" content="https://kirillzhosul.site" />
+      <meta name="author" content={process.env.NEXT_PUBLIC_META_AUTHOR} />
       
       <meta name="description" content="Software solutions for everyone." />
       <meta name="keywords" content="florgon, space, portal, services, kirillzhosul" />
 
-      <link rel="canonical" href="https://florgon.space" />
-      <link rel="alternate" hrefLang="x-default" href="https://florgon.space" />
+      <link rel="canonical" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
+      <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
       
-      <meta name="title" content="Florgon" />
+      <meta name="title" content="Not Found" />
       <title>Not Found | 404</title>
     </Head>
     <Navbar/>
@@ -33,8 +33,6 @@ export default function NotFound() {
             <Link href="/"><a className="btn btn-lg btn-primary mt-3 shadow">Go back to Home</a></Link>
           </div>
       </div>
-
-
     </Container>
   </>)
 }
