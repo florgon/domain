@@ -24,7 +24,7 @@ export default function Home() {
             <Link href="/projects"><a className="btn btn-outline-primary shadow">See all projects</a></Link>
         </div>
     </div>
-    <div className="row mt-5">
+    <div className="row mt-5 mb-5">
         <div className="col-lg ml-lg-5 text-center mb-3">
             <h2>Have any questions?</h2>
             <p>Contact support and ask any question that you want.</p>
