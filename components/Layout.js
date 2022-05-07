@@ -1,6 +1,6 @@
 import Navbar from './navbar'
 import Footer from './footer'
-import { Container } from 'react-bootstrap'
+import { Container, Button } from 'react-bootstrap'
 import Head from 'next/head'
 
 export default function Layout({ children }) {
@@ -17,6 +17,9 @@ export default function Layout({ children }) {
       
       <link rel="canonical" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
       <link rel="alternate" hrefLang="x-default" href={process.env.NEXT_PUBLIC_CANONICAL_DOMAIN} />
+
+      <meta name="title" content="Florgon" />
+      <title>Florgon</title>
     </Head>
     <Navbar />
     <Container className="mt-5 text-center">{children}</Container>

@@ -12,7 +12,7 @@ export default function NotFound() {
         <div className="col-lg ml-lg-5 text-center">
           <h2></h2>
           <h2><b>Oops...</b></h2>
-          <p>Page you are looking for <i>not exists</i> or <i>unavaliable</i>!</p>
+          <p>Page or resource you are looking for <b>not exists</b> or <b>unavaliable</b> at this moment!</p>
           <Link href="/"><a className="btn btn-lg btn-primary mt-3 shadow">Go back to Home</a></Link>
         </div>
     </div>

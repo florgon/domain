@@ -1,21 +1,24 @@
-import {Navbar as BootstrapNavbar, Nav as BootstrapNav} from 'react-bootstrap';
+import {Navbar as BootstrapNavbar, Nav as BootstrapNav, Container, Button} from 'react-bootstrap';
 import Link from 'next/link'
 
 export default function Navbar(){
     return (
         <BootstrapNavbar bg="light" expand="sm" className="border-bottom container-fluid navbar shadow-sm">
-            <BootstrapNavbar.Brand>
+            <Container fluid>
+            <BootstrapNavbar.Brand href="/">
                 Florgon Space
             </BootstrapNavbar.Brand>
             <BootstrapNavbar.Collapse id="navbarCollapse">
-                <BootstrapNav>
-                    <Link href="/"><a className="nav-link">Home</a></Link>
-                    <Link href="/about"><a className="nav-link disabled">About</a></Link>
-                    <Link href="/projects"><a className="nav-link">Projects</a></Link>
-                    <Link href={process.env.NEXT_PUBLIC_PROFILE_LINK}><a className="nav-link">Profile</a></Link>
+                <BootstrapNav className="justify-content-end" style={{ width: "100%" }}>
+                    <Link href="/"><Button variant="outline-secondary">Home</Button></Link>&nbsp;
+                    <Link href="/about"><Button variant="outline-secondary" disabled>About</Button></Link>&nbsp;
+                    <Link href="/projects"><Button variant="outline-secondary">Projects</Button></Link>&nbsp;
+                    <Link href={process.env.NEXT_PUBLIC_PROFILE_LINK}><Button variant="outline-primary">Profile</Button></Link>
                 </BootstrapNav>
             </BootstrapNavbar.Collapse>
             <BootstrapNavbar.Toggle aria-controls="navbarCollapse" />
+            </Container>
         </BootstrapNavbar>
     )
+    z
 }
