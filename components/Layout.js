@@ -1,6 +1,6 @@
 import Navbar from './navbar'
 import Footer from './footer'
-import { Container, Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Head from 'next/head'
 
 export default function Layout({ children }) {

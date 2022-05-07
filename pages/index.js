@@ -14,7 +14,7 @@ export default function Home() {
         <div className="col-lg ml-lg-5 text-center mb-3">
             <h2>About us</h2>
             <p>We are working on different applications, websites, software solutions and services for users. Different websites for everyone, services for developers, and much more</p>
-            <Link href="/about"><a className="btn btn-outline-primary disabled shadow">Learn more</a></Link>
+            <Link href="/about"><a className="btn btn-outline-primary shadow">Learn more</a></Link>
         </div>
         <div className="col-lg ml-lg-5 text-center">
             <h2>Our projects</h2>

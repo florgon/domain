@@ -11,7 +11,7 @@ export default function Navbar(){
             <BootstrapNavbar.Collapse id="navbarCollapse">
                 <BootstrapNav className="justify-content-end" style={{ width: "100%" }}>
                     <Link href="/"><Button variant="outline-secondary">Home</Button></Link>&nbsp;
-                    <Link href="/about"><Button variant="outline-secondary" disabled>About</Button></Link>&nbsp;
+                    <Link href="/about"><Button variant="outline-secondary">About</Button></Link>&nbsp;
                     <Link href="/projects"><Button variant="outline-secondary">Projects</Button></Link>&nbsp;
                     <Link href={process.env.NEXT_PUBLIC_PROFILE_LINK}><Button variant="outline-primary">Profile</Button></Link>
                 </BootstrapNav>
