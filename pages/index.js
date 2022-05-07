@@ -33,7 +33,7 @@ export default function Home() {
         <div className="col-lg ml-lg-5 text-center">
             <h2>Developer?</h2>
             <p>See our developers portal.</p>
-            <Link href={process.env.NEXT_PUBLIC_FOR_DEVELOPERS_LINK}><a className="btn btn-outline-secondary disabled shadow">Open website</a></Link>
+            <Link href={process.env.NEXT_PUBLIC_FOR_DEVELOPERS_LINK}><a className="btn btn-outline-secondary shadow">Open website</a></Link>
         </div>
     </div>
   </>)
